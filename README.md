@@ -1,6 +1,6 @@
-# 🏥 Mini Clinic Appointment App
+# Mini Clinic Appointment App
 
-## 📌 Giới thiệu
+## Giới thiệu
 Ứng dụng PHP thuần mô phỏng hệ thống đăng ký lịch khám.
 
 Chức năng:
@@ -11,14 +11,14 @@ Chức năng:
 
 ---
 
-## 🛠️ Công nghệ
+## Công nghệ
 - PHP (Native)
 - Composer (PSR-4)
 - Git
 
 ---
 
-## 📁 Cấu trúc
+## Cấu trúc
 public/ # index.php (entry point)
 src/
 - Controllers/
@@ -30,16 +30,16 @@ storage/logs/
 
 ---
 
-## ▶️ Chạy project
+## Chạy project
 
 ```bash
 composer dump-autoload
 php -S localhost:8000 -t public
-
-Mở: http://localhost:8000
+## Demo
+http://localhost:8000
 ```
 
-## 📡 API
+## API
 
 ### GET /appointments
 - Lấy danh sách lịch khám
@@ -56,12 +56,12 @@ Mở: http://localhost:8000
 - 201 Created
 - Có header Location
 
-## ✅ Validation
+## Validation
 - Thiếu field
 - Sai kiểu dữ liệu
 - Appointment không tồn tại
 - Vượt số lượng slot
 
-## 👨‍💻 Author
+## Author
 
 Quynh Ngo

@@ -3,21 +3,21 @@
 return [
     [
         'id' => 1,
-        'doctor' => 'Dr. Nguyen',
+        'doctor' => 'Dr. Jennie',
         'date' => '2026-05-10',
         'slots_total' => 10,
         'slots_available' => 5
     ],
     [
         'id' => 2,
-        'doctor' => 'Dr. Tran',
+        'doctor' => 'Dr. JiWon',
         'date' => '2026-05-11',
         'slots_total' => 8,
         'slots_available' => 0
     ],
     [
         'id' => 3,
-        'doctor' => 'Dr. Le',
+        'doctor' => 'Dr. Tae',
         'date' => '2026-05-12',
         'slots_total' => 12,
         'slots_available' => 7
@@ -56,5 +56,19 @@ return [
         'date' => '2026-05-30',
         'slots_total' => 30,
         'slots_available' => 15
+    ],
+    [
+        'id' => 9,
+        'doctor' => 'Dr. Jimin',
+        'date' => '2026-05-30',
+        'slots_total' => 15,
+        'slots_available' => 0
+    ],
+    [
+        'id' => 10,
+        'doctor' => 'Dr. Minho',
+        'date' => '2026-05-30',
+        'slots_total' => 10,
+        'slots_available' => 0
     ]
 ];
